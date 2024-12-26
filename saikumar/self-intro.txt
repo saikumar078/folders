@@ -1,0 +1,25 @@
+thank  you for  giving this opertunity to introduced my self.
+my name is saikumar .  I'm native of karimnagar district .I am completed my graduation from the guru nanak institude of technical campus.Total I have 1.5 year of experience  backend developer.My technical skills are go lang , java , spring boot , sql and no sql and also I have knowledge on cloud technologies like aws , gcp, azure 
+
+I have worked on multiple project.one is Ai Driven automation deployment  and another one is health care manganment .
+
+For suppose when  ever we want create a  infra structure in cloud use Traform. and again we want to create a new infra structure   in cloud we  have to modified the Traform Again. with help of our AI project .we will pass  Directly  infra structure  details from UI it will create  A infra structure in cloud .In your we have UI , AI engine ,config Engine,backend engine 
+
+
+for suppose we have create a bucket in aws . 
+
+we will pass requst from Ui. that request might be in voice or text ---- it will pass to Ai engine .it will generate the yaml file and that will pass to the config  engine .In config  git prsent in it . to store the yaml file  before storing the yaml file it will check the perperties are exist or not in that region .  if exist it  give  a pop msg in ui the perperties are already present in that region. if not present the   process will continue and It will connect the backend engine. that backend connect with  sdk for every provider it create a infra structure  in cloud .we  use temporal to execute  the work flows. and actives  and  I 'm self motivator , punctual and hardworker  and also   work  indenpentely  .   my short term goal is  to get a job ina reputaion comapany   I can grow  my skills  . my long lerm goal is  I want to see  backbone  my organisation 
+
+ 
+
+
+workflow are content  multiple actives
+
+are active like subtake  . we have create bucket it activity ..
+
+
+thank you give opportunity  introduced my  self .
+
+
+and Another  is health care manganment system. Developed API endpoints for managing user data, appointments, and consultant availability.
+It this project we have 

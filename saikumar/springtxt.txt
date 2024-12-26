@@ -1,0 +1,146 @@
+spring is came at 2003
+jar --- java archieve
+it content a group of . class files
+war --- web archieve
+
+combine  all web application file   that file is called war file  -- it represent 0ne web application
+
+ear --- enterprise archiche --- one  enterprise Application
+
+
+red Johnson
+spring org 
+
+ --intial name of spring frame is interface 21
+ ---alternative for EJB( Enterprise java beans)
+ the applications will heavy weight  and not loose couple.  We  want to buy serveres
+ 
+ spring:
+ 
+ we can create  light weight  Applications
+ know need to buy  servers .
+  cost  is less..
+  
+  what is reason for  name spring ??
+   because  in usa people winter season is not god for them   beacuse   tempature goes to  -20 D
+   
+   and Ejb -- feel like winder and upcoming season is spring 
+ so the usa people keep  it has spring
+
+comparing  to  EJB ---  spring is easy (leaf symbol  they put)
+
+ 
+ while   Awt -- are  heavy weight because they use o.s dependecny 
+ 
+  spring  not use o.s depencies. it use  jdk libries
+  
+  
+ 
+ 
+ 
+The @RestController annotation is used to create RESTful web services by combining @Controller and @ResponseBody, which means data returned by each method will be written straight into the response body
+ 
+ 
+ The @PathVariable annotation is used to extract values from the URI within a controller method, typically in RESTful web services to access a specific resource.
+ 
+ 
+ The @RequestBody annotation indicates a method parameter should be bound to the body of the web request, which is commonly used to handle the content of the request in JSON or XML format.
+ 
+ 
+ The @RequestMapping annotation is used to define the base URI for a controller, specifying which URL paths are handled by which controller.
+ 
+ 
+ 
+ IOC Container : is a  principle
+ inversion of controller 
+
+general  the user will create a  object, but in spring the  ioc container will  be create object.
+ 
+ the user dnot create   object 
+ 
+dependecny injection: design pattern
+
+ 
+dependecny injection  will inject the object  into application 
+
+configuring xml files
+creating the project 
+creating the beans 
+
+
+In spring 
+object= bean 
+the bean are 
+avaiable in the ioc container 
+
+In spring it does not  create  every object.when we  tells that  time  only it will create .
+
+ we tell  to  I want to create object ??
+  so we use  annotations that @component 
+  
+  
+  ApplicationContext context =SpringApplication.run(springbootDemoApplication);
+  
+   Aliean obj=context.getBean(Aliean.Class);
+   
+   obj.code();
+   
+   
+   
+  ======================
+  
+ In spring boot  when ever we want to call one class method into another . We have  make wiring that happened with @Autowired
+ 
+ 
+ example:
+ --------------------
+Laptop ----- is class  
+
+@Autowired
+Laptop laptop ---- we have reference
+ ==============
+ 
+ beanFactory & ApplicationContext  both does do same  things create in the container and get object from the container
+ 
+  ApplicationContext  it have  all perperites  what  are in beanfactorty AND ApplicationContext extra feacture  so use Application context
+  
+  
+  =====================
+ 
+ ApplicationContext context =new ClasspathXmlApplicationContext("xml file ")
+ 
+ Aliean obj =(Aliean)Context.getBean("here register the class");
+ obj.code()//calling Aliean class proteries
+ ================
+ 
+ when ever we create object   each time we get same  output   because  in bean tag   is by default    single torn
+ 
+ singletorn=============  by default 
+ prototype 
+ 
+ 
+  <property> </property>====setter injection
+   
+   <bean id="beanId" class="com.example.MyClass">
+    <property name="propertyName" value="propertyValue"/>
+</bean>
+
+   when ever  we want to call one class perperires into another class we use ref  
+
+
+<bean id="beanId1" class="com.example.MyClass1">
+    <property name="dependency">
+        <ref bean="beanId2"/>
+    </property>
+</bean>
+
+<bean id="beanId 2" class="com.example.MyClass2"/>
+
+
+CONSSTRUCTOR INJECTION:
+
+
+ 
+ 
+ 
+ 
